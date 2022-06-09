@@ -1,1 +1,25 @@
+<section class="container">
+        <section class="card">
+            <section class="content">
+                <h1>Respekt</h1>
+                <p>Det er vigtigt for os, at alle bliver behandlet med respekt og åbenhed. Det er det enkelte menneske og vores forskelligheder der er vigtige. Som medlem kræves der samarbejde med alle. I forhold til pårørende, er det yderst vigtigt at huske at de oftest er i krise. Personlige overbevisninger som religion, herkomst, seksualitet og levevis skal til enhver tid respekteres.</p>
+            </section>
+        </section>
 
+<style>
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    flex: 1 0 20em;
+    background: #FEFAE0;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.503); 
+    padding: 30px;
+}
+
+</style>
