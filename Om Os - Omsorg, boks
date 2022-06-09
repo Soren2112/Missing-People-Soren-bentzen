@@ -1,0 +1,25 @@
+ <section class="container">
+        <section class="card">
+            <section class="content">
+                <h1>Omsorg</h1>
+                <p>At pårørendekontakten altid er opsøgende og tilgængelig, samt drager omsorg for de pårørende og varetager deres interesser med fortrolighed og respekt og, hvis de ønsker det, beskytter dem imod spørgsmål fra søgere og pressen. Frivillige søgere kommer os til hjælp af et godt hjerte, det er vigtigt at respektere deres begrænsninger i alle henseende og sørge for de er i gode hænder ved korrekt orientering inden, under og efter eftersøgningen, samt sørge for den rette hjælp ved eventuelle fund af savnede.</p>
+            </section>
+        </section>
+
+<style>
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    flex: 1 0 20em;
+    background: #FEFAE0;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.503); 
+    padding: 30px;
+}
+
+</style>
