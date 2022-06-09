@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="UTF-8">
+	<title>Tilmeldingsformular</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+
+<section class="Tilmeldingsformular">
+  <h2>Bliv medlem </h2>
+  <section id="error_message"></section>
+  <form id="myform" onsubmit="return validate();">
+    <section class="input_field">
+        <input type="text" placeholder="Navn" id="navn">
+    </section>
+    <section class="input_field">
+        <input type="text" placeholder="Emne" id="emne">
+    </section>
+    <section class="input_field">
+        <input type="text" placeholder="Telefonnummer" id="telefonnummer">
+    </section>
+    <section class="input_field">
+        <input type="text" placeholder="E-mail" id="email">
+    </section>
+    <section class="input_field">
+        <textarea placeholder="Besked" id="besked"></textarea>
+    </section>
+    <section class="btn">
+        <input type="submit">
+    </section>
+  </form>
+</section>
+
+</body>
+</html> 
