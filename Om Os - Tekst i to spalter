@@ -1,0 +1,45 @@
+<h1>Missing People</h1>
+<div class="columns">
+  <p>Missing People er et tilbud til de pårørende af en <b>savnet borger.</b> Vi organiserer og iværksætter eftersøgninger af savnede borgere i hele Danmark, samt støtter op om de pårørende hele vejen igennem forløbet.
+
+    <p>De seneste tal viser, at der forsvinder omkring <b>600 personer i Danmark om året.</b></p>
+
+    <p>På et eller andet tidspunkt rammer det en, vi kender. De fleste kommer heldigvis hurtigt hjem igen. Det er den sidste lille del af de forsvundne, som ikke dukker op inden for kort tid, som vi deltager <b>aktivt i at eftersøge.</b></p>
+
+    <p>Der kan være utrolig mange årsager, til at folk forsvinder, demens, depression, alkohol, hjerneskader, alderdom, børn fra børnehaver på udflugt eller unge på vej hjem fra byen.</p>
+
+    <p>Når et familiemedlem, en ven, en kollega eller en nabo forsvinder, <b>berører det mange mennesker.</b> Uvisheden ses ofte som det værste, og politiet har desværre ikke uanede ressourcer.</p>
+
+    <p>Det er her vi gør en forskel, for vi søger for de pårørende og bliver ved. Missing People giver ikke så nemt op.</p>
+
+  <p><b>Missing People arbejder frivilligt</b> og kan samle et indsatsteam på kort tid, samt samle frivillige søgere på alle tider af døgnet. Vi arbejder altid for de pårørende, der skal altid ligge en anmeldelse fra nærmeste pårørende samt accept fra politiet, før vi går ind i en sag.</p>
+  
+  <p>Under vores eftersøgninger har vi mulighed for at få assistance fra Missing People 
+
+<ul>
+<li>Indsatshunde
+<li>Indsatsdroner
+<li>Indsats-ATV enhederne
+</ul>
+  
+  <p>Disse arbejder ligesom os altid under de gældende <b>retningslinjer</b> fra Rigspolitiet og andre myndigheder, samt vores værdigrundlag og retningslinjer.</p>
+  
+  <p>Vi håber, at vi har fanget jeres interesse og at I ønsker at <b>støtte op om vores arbejde.</b> Dermed kan vi sammen skabe håb for de pårørende og gøre en forskel, ved at bringe deres kære hjem.</p>
+</div>
+
+<style>
+h1 {
+  font-size: 30px;
+  color: #black;
+  font-weight: 900;
+}
+
+p { margin-top: 0; }
+
+.columns {
+  columns: 250px 2;
+  column-rule: 1px dotted #ccc;
+  column-gap: 5em;
+}
+
+</style>
