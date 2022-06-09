@@ -1,0 +1,26 @@
+<section class="container">
+        <section class="card">
+            <section class="content">
+                <h1>Sammenhold</h1>
+                <p>Det er vigtigt at vi arbejder som en enhed, at vi har et godt fællesskab på tværs af landet og kan stå til rådighed ved søgninger i andre landsdele, hvis nødvendigt.
+Udviser loyalitet overfor foreningen og hinanden og hjælper med det vi kan.</p>
+            </section>
+        </section>
+
+<style>
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    flex: 1 0 20em;
+    background: #FEFAE0;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.503); 
+    padding: 30px;
+}
+
+</style>
