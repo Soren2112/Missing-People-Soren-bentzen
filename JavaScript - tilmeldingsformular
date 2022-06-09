@@ -1,0 +1,39 @@
+ function validate(){
+	var navn = document.getElementById("navn").value;
+	var emne = document.getElementById("emne").value;
+	var telefonnummer = document.getElementById("telefonnummer").value;
+	var email = document.getElementById("email").value;
+	var besked = document.getElementById("besked").value;
+	var error_message = document.getElementById("error_message");
+	
+	error_message.style.padding = "10px";
+	
+	var text;
+	if(navn.length < 1){
+	  text = "Indtast venligst et gyldigt navn";
+	  error_message.innerHTML = text;
+	  return false;
+	}
+	if(emne.length < 1){
+	  text = "Indtast venligst det rigtige emne";
+	  error_message.innerHTML = text;
+	  return false;
+	}
+	if(isNaN(telefonnummer) || telefonnummer.length != 8){
+	  text = "Indtast venligst et gyldigt telefonnummer";
+	  error_message.innerHTML = text;
+	  return false;
+	}
+	if(email.indexOf("@") == -1 || email.length < 6){
+	  text = "Indtast venligst gyldig E-mail";
+	  error_message.innerHTML = text;
+	  return false;
+	}
+	if(besked.length <= 1){
+	  text = "Indtast venligst mere end 140 tegn";
+	  error_message.innerHTML = text;
+	  return false;
+	}
+	alert("Du er nu medlem af Missing People");
+	return true;
+  }
